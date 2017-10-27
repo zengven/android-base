@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SuperEditText">
+        <attr name="src" format="reference"/>
+        <attr name="src_padding" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="InputStepLayout">
+        <attr name="pane_num" format="integer"/>
+        <attr name="pane_width" format="dimension"/>
+        <attr name="pane_height" format="dimension"/>
+        <attr name="pane_padding" format="dimension"/>
+        <attr name="pane_background" format="reference"/>
+        <attr name="pane_textColor" format="color"/>
+        <attr name="pane_textSize" format="dimension"/>
+    </declare-styleable>
+</resources>

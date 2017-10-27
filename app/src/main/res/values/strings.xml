@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">android-base</string>
+
+    <!-- 权限申请 -->
+    <string name="permission_title">权限申请</string>
+    <string name="goto_setting">去设置</string>
+    <string name="cancel">取消</string>
+    <string name="camera_denied_message">在设置-应用-%1$s-权限中开启相机权限，以正常使用扫描功能</string>
+
+    <string name="count_down_time">%d s</string>
 </resources>
