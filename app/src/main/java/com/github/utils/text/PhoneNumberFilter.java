@@ -4,9 +4,7 @@ import android.content.Context;
 import android.text.InputFilter;
 import android.text.Spanned;
 
-import com.huijiayou.huijiayou.R;
-import com.huijiayou.huijiayou.utils.RegularUtil;
-import com.huijiayou.huijiayou.utils.ToastUtils;
+import com.github.utils.RegularUtil;
 
 /**
  * author: zengven
@@ -32,8 +30,9 @@ public class PhoneNumberFilter implements InputFilter {
             if (RegularUtil.isMobileSimple(dest.toString() + source.toString())) {
                 return null; // keep original
             } else {
-                if ((dend - dstart) <= 0)
-                    ToastUtils.show(mContext, R.string.notice_input_phonenum_error);
+                if ((dend - dstart) <= 0){
+//                    ToastUtil.show(mContext, R.string.notice_input_phonenum_error);
+                }
             }
         } else if (keep >= end - start) {
             return null;

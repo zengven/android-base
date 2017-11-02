@@ -2,7 +2,6 @@ package com.github.utils;
 
 import android.util.Log;
 
-import com.ihuijiayou.ticket.config.Constants;
 
 
 /**
@@ -13,7 +12,7 @@ import com.ihuijiayou.ticket.config.Constants;
 public class Logger {
 
     private static final String APP_LOG_TAG = "Ticket";
-    private static final boolean isDebug = Constants.DEBUG;//发布环境需置为false
+    private static final boolean isDebug = true;//发布环境需置为false
 
     private Logger() {
     }

@@ -14,9 +14,8 @@ import android.os.Environment;
 import android.provider.MediaStore;
 import android.support.v4.content.FileProvider;
 import android.text.TextUtils;
-
-import com.ihuijiayou.oilstaff.utils.FileUtil;
-import com.ihuijiayou.oilstaff.utils.Logger;
+import com.github.utils.FileUtil;
+import com.github.utils.Logger;
 
 import java.io.File;
 import java.io.FileInputStream;
